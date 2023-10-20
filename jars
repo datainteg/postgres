@@ -7,3 +7,7 @@ wget https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf
 wget https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
 wget https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar
 wget https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar
+
+wget https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.12/3.3.3/spark-core_2.12-3.3.3.jar
+wget https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.12/3.3.3/spark-sql_2.12-3.3.3.jar
+
