@@ -1,0 +1,20 @@
+wget http://downloads.typesafe.com/scala/2.12.15/scala-2.12.15.tgz
+tar -xzvf scala-2.12.15.tgz
+rm -rf scala-2.12.15.tgz
+mv scala-2.12.15 scala
+
+
+
+################################# Jar creating ##########################################
+
+1. Create file sample.scala 
+2. complier sample.scala by 
+    bin/scalac sample.scala
+3. after that two file generate 
+    ObjectName.class
+    ObjectName$.class
+4. jar cf YourJarFileName.jar *.class
+  jar cf YourJarFileName.jar com/example/*.class
+
+
+spark-submit --class PostgreDataTransfer postgres.jar
